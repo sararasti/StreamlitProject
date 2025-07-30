@@ -1,4 +1,5 @@
 import streamlit as st
+from sklearn.base import BaseEstimator, TransformerMixin
 from utils import PrepProcesor, columns 
 
 import numpy as np
